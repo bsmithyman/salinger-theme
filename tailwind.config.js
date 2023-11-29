@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      sans: ["Ubuntu", "sans-serif"],
-      serif: ["Newsreader", "serif"],
-      mono: ["Ubuntu Mono", "monospace"],
+      sans: ["Fira Sans", "sans-serif"],
+      serif: ["Caveat", "serif"],
+      mono: ["Fira Mono", "monospace"],
     },
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
